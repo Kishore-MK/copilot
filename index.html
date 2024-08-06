@@ -8,10 +8,10 @@
 <body>
   <h1>Chainlit Copilot Test</h1>
   <link rel="stylesheet" href="styles.css">
-  <script src="http://localhost:8000/copilot/index.js"></script>
+  <script src="https://copilot-1.onrender.com/copilot/index.js"></script>
   <script>
     window.mountChainlitWidget({
-      chainlitServer: "http://localhost:8000",
+      chainlitServer: "https://copilot-1.onrender.com",
     });
     window.addEventListener("chainlit-call-fn", (e) => {
       const { name, args, callback } = e.detail;
